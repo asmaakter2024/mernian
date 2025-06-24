@@ -10,16 +10,16 @@ import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import ProductDetails from "./pages/ProductDetails";
 import CheckOut from "./pages/CheckOut";
-import PublicProfile from "./pages/publicProfile";
+
 
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<CommonLayout />}>
-          <Route path="/" element={<PublicProfile/>} />
-          <Route path="/news-feed" element={<NewsFeed />} />
+        <Route  element={<CommonLayout />}>
+    
+          <Route  index path="/" element={<NewsFeed />} />
           <Route path="/news-feed2" element={<NewsFeed2 />} />
           <Route path="/friends" element={<Friends />} />
           <Route path="/about" element={<About />} />
