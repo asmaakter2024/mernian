@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import LogoPart from "./LogoPart";
 
 const Header = () => {
   return (
-    <div className='bg-green-300 text-4xl text-center h-[400px]'> this is a Header part</div>
-  )
-}
+    <div>
+      <div className="bg-[#615DFA]">
+        <LogoPart />
+      </div>
+    </div>
+  );
+};
 
-export default Header
+export default Header;

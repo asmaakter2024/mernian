@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Logo from "../../assets/images/logo.png";
 
 const LogoPart = () => {
   return (
-    <div>LogoPart</div>
-  )
-}
+    <div>
+      <img src={Logo} alt="logo" />
+    </div>
+  );
+};
 
-export default LogoPart
+export default LogoPart;
