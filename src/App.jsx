@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import CommonLayout from "./components/commonLayouts/CommonLayout";
-import PublicProfile from "./pages/publicProfile";
+
 import NewsFeed from "./pages/NewsFeed";
 import NewsFeed2 from "./pages/NewsFeed2";
 import Friends from "./pages/Friends";
@@ -10,6 +10,7 @@ import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import ProductDetails from "./pages/ProductDetails";
 import CheckOut from "./pages/CheckOut";
+import PublicProfile from "./pages/publicProfile";
 
 
 function App() {
