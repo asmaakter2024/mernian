@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import CommonLayout from "./components/commonLayouts/CommonLayout";
-
 import NewsFeed from "./pages/NewsFeed";
 import NewsFeed2 from "./pages/NewsFeed2";
 import Friends from "./pages/Friends";
@@ -11,15 +10,12 @@ import Cart from "./pages/Cart";
 import ProductDetails from "./pages/ProductDetails";
 import CheckOut from "./pages/CheckOut";
 
-
-
 function App() {
   return (
     <>
       <Routes>
-        <Route  element={<CommonLayout />}>
-    
-          <Route  index path="/" element={<NewsFeed />} />
+        <Route element={<CommonLayout />}>
+          <Route index path="/" element={<NewsFeed />} />
           <Route path="/news-feed2" element={<NewsFeed2 />} />
           <Route path="/friends" element={<Friends />} />
           <Route path="/about" element={<About />} />
